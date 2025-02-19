@@ -4,6 +4,8 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from conf import *
 from db.models.ormmodels.models import Category
 
+def dasdads():
+    pass
 
 def main_user_kb(user_id: int) -> InlineKeyboardMarkup:
     kb = InlineKeyboardBuilder()
